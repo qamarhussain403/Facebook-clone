@@ -218,3 +218,77 @@ header .right-part ul li i{
 header .right-part ul li a:hover{
     background-color: #e4e6eb;
 }
+
+
+    /*.......... main-contact start.......... */
+
+.main-contact{
+    padding: 0 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.main-contact .left-slidebar{
+    width: 22%;
+    height: 80vh;
+    overflow: scroll;
+}
+
+.main-contact .left-slidebar::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+.main-contact .left-slidebar::-webkit-scrollbar-thumb{
+    background-color: #818f9d;
+    border-radius: 15px;
+}
+
+.main-contact .left-slidebar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.main-contact .left-slidebar ul li a{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.main-contact .left-slidebar ul li a .icon{
+    width: 20%;
+    margin-right: 10px;
+}
+
+.main-contact .left-slidebar ul li a img{
+    width: 30px;
+}
+
+.main-contact .left-slidebar ul li a h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.main-contact .left-slidebar ul li a:hover{
+    background-color: #e4e6eb;
+}
+
+.main-contact .left-slidebar ul .see_more a .icon,
+.main-contact .left-slidebar ul .see_less a .icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #cccdcf;
+}
+
+.main-contact .left-slidebar ul .overflow-btn,
+.main-contact .left-slidebar ul .see_Less{
+    display: none;
+}
+
+.main-contact .left-slidebar ul .overflow-btn.active,
+.main-contact .left-slidebar ul .see_Less .active{
+    display: block;
+}

@@ -12,6 +12,9 @@
         <!-- ---css-link--- -->
     <link rel="stylesheet" href="css/style.css">
 
+        <!-- Jquery-Link -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -58,7 +61,162 @@
             </ul>
         </div>
     </header>
+
+        <!-- Main Contact -->
+
+        <div class="main-contact">
+            <div class="left-slidebar">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Covid.png" alt=""></span>
+                            <h4>Covid-19 Information</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Friends.png" alt=""></span>
+                            <h4>Find Friends</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/market place.png" alt=""></span>
+                            <h4>Marketplace</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Events.png" alt=""></span>
+                            <h4>Events</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Groups.png" alt=""></span>
+                            <h4>Groups</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/watch.png" alt=""></span>
+                            <h4>Watch</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/memories.png" alt=""></span>
+                            <h4>Memories</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Saved.png" alt=""></span>
+                            <h4>Saved</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/Pages.png" alt=""></span>
+                            <h4>Pages</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/ktw4C8enVa3.png" alt=""></span>
+                            <h4>Climate Science Centre</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="images/ad centre.png" alt=""></span>
+                            <h4>Ad Centre</h4>
+                        </a>
+                    </li>
+                    <li class="see_more">
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-caret-down"></i>
+                            </span>
+                            <h4>See More</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/ads manger.png" alt=""></span>
+                            <h4>Ad Manager</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/Blood donation.png" alt=""></span>
+                            <h4>Blood Donation</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/Help.png" alt=""></span>
+                            <h4>Community Help</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/messanger.png" alt=""></span>
+                            <h4>Massenger</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/Most Recent.png" alt=""></span>
+                            <h4>Most resent</h4>
+                        </a>
+                    </li>
+                    <li class="overflow-btn">
+                        <a href="#">
+                            <span class="icon"><img src="images/Gaming.png" alt=""></span>
+                            <h4>Gaming Video</h4>
+                        </a>
+                    </li>
+                    <li class="      <script>https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js</scr>
+                        ">
+                        <a href="#">
+                            <span class="icon"><img src="images/Fundraisers.png" alt=""></span>
+                            <h4>Fundraisers</h4>
+                        </a>
+                    </li>
+                    <li class="see_Less">
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-caret-down"></i>
+                            </span>
+                            <h4>See Less</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
 </div>
+
+<script>
+
+    $(document).ready(function(){
+        $('.see_more').click(function(){
+            $(this).hide();
+            $('.overflow-btn').addClass('active');
+            $('.see_Less').addClass('active');
+        })
+            
+    
+        $('.see_more').click(function(){
+            $(this).hide();
+            $('.overflow-btn').removeClass('active');
+            $('.see_Less').removeClass('active');
+        })
+            
+    })
+     
+</script>
+
+  
 
 
 </body>
