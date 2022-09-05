@@ -97,6 +97,28 @@ img {
     border-bottom: 15px;
 }
 
+.ml-5{
+    margin-left: 5px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+     margin-right: 15px;
+}
+
 /* -----Header-Css-Start----- */
 
 header{
@@ -151,7 +173,7 @@ header .left-part .search-bar form button{
     border: none;
 }
 
-        /* --mid-menu-- */
+        /* ------------mid-menu------------ */
 
 header .mid-menu ul{
     width: 100%;
@@ -263,7 +285,7 @@ header .right-part ul li a:hover{
     border-radius: 10px;
 }
 
-.main-contact .left-slidebar ul li a .icon{
+.main-contact .left-slidebar ul li a .icon {
     width: 20%;
     margin-right: 10px;
 }
@@ -435,7 +457,7 @@ header .right-part ul li a:hover{
 }
 
 .feed-and-add-section .create-post hr{
-    margin-top: 20px;
+    margin-top:  20px;
 }
 
 .feed-and-add-section .create-btn ul li {
@@ -445,4 +467,33 @@ header .right-part ul li a:hover{
 .feed-and-add-section .create-btn ul li span img{
     width: 24px;
     margin-right: 10px;
+}
+
+.feed-and-add-section .create-btn ul li{
+    width: 33.33%;
+}
+
+/* .....Create Room..... */
+
+.feed-and-add-section .create-room a {
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid #166ada;
+    color: #166ada;
+    font-size: 14px;
+    padding: 10px 5px;
+    font-weight: 500;
+}
+
+.feed-and-add-section .create-room a img{
+    width: 24px;
+    margin-right: 10px;
+}
+
+.feed-and-add-section .create-room a:hover{
+    background-color: #e4e6eb;
+}
+
+.main-post .post-time-name .time span{
+    font: 12px;
 }
