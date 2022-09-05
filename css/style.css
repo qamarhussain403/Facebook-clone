@@ -497,3 +497,13 @@ header .right-part ul li a:hover{
 .main-post .post-time-name .time span{
     font: 12px;
 }
+
+.main-post .post-more a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.main-post .post-more a:hover{
+    background-color: #efefef;
+}
