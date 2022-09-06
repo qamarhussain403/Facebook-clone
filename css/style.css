@@ -277,7 +277,8 @@ header .right-part ul li a:hover{
     display: flex;
 }
 
-.main-contact .left-slidebar{
+.main-contact .left-slidebar,
+.main-contact .right-slidebar{
     width: 22%;
     height: 80vh;
     overflow: scroll;
@@ -347,7 +348,7 @@ header .right-part ul li a:hover{
 
 .middle-feed{
     width: 55%;
-    padding: 0;
+    padding: 0 30px;
     margin: 0 auto;
     padding-right: 95px;
 }        
@@ -579,4 +580,86 @@ header .right-part ul li a:hover{
 
 .main-post .a-like{
     display: none;
+}
+
+            /* ..............right-slidebar.............. */
+
+.main-contact .right-slidebar{
+    right: 0;
+    padding-right: 15px;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title{
+    display: flex;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title .icons{
+    display: flex;
+    margin-left: 55px;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title .icons li a{
+    padding-left: 12px;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title li p{
+    font-size: 18px;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title li .more-option ul li a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0 5px;
+    
+}
+
+.main-contact .right-slidebar .contact-list .contact-title li .more-option ul{
+    margin-left: 160px;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title li .more-option ul li a:hover{
+    background-color: #e4e6eb;
+}
+
+.main-contact .right-slidebar .contact-list .contact-title li .more-option ul li a{
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.main-contact .right-slidebar .contact-list .contact ul li a .round-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    position: relative;
+
+}
+
+.main-contact .right-slidebar .contact-list .contact ul li a .round-img::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #07c911;
+}
+
+.main-contact .right-slidebar .contact-list .contact ul li:nth-child(2) a .round-img::before{
+display: none;
+}
+
+.main-contact .right-slidebar .contact-list .contact ul li a h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-contact .right-slidebar .contact-list .contact-title li .more-option ul li a:hover{
+    background-color: #e4e6eb;
+}
+
+ .contact ul li{
+    margin-bottom: 20px;
 }
